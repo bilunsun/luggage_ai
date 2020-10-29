@@ -1,0 +1,6 @@
+*.pth
+runs/
+data/
+.vscode/
+__pycache__/
+lightning_logs/
