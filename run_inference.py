@@ -13,7 +13,7 @@ transform = transforms.Compose([
 ])
 
 
-def main(img_path, n=1_00):
+def main(img_path, n=1_000):
     jpg_img = Image.open(img_path)
 
     model = Model().cpu()
